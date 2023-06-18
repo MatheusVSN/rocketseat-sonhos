@@ -21,7 +21,8 @@ export async function memmoriesRoutes(app: FastifyInstance) {
             return {
                 id: memmory.id,
                 coverUrl: memmory.coverUrl,
-                excerpt: memmory.content.substring(0, 115).concat("...")
+                excerpt: memmory.content.substring(0, 115).concat("..."),
+                content: memmory.content
             }
         })
     })
