@@ -4,7 +4,7 @@ Esse foi um projeto realizado no evento NLW rocket-seat
 
 Nesse repositório há dois arquivos, server e web
 
-> Server -> Back-end | Fastify3
+> Server -> Back-end | Fastify
 >
 > Web -> Front-end | Next.js
 
